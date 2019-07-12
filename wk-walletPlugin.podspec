@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "wk-walletPlugin"
-  s.version      = "1.0.0"
-  s.summary      = "A short description of wk-walletPlugin."
+  s.version      = "1.1.1"
+  s.summary      = "wk钱包插件"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-		no description
+		wk钱包插件，供第三方使用
                    DESC
 
   s.homepage     = "https://github.com/Doggylin/wk-walletPlugin"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Wiccwallet.framework", "Wiccwallet.framework/**/*.{h,m}"
+  s.source_files  = "wk-walletPlugin" , "Wiccwallet.framework/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Wiccwallet.framework/**/*.h"
